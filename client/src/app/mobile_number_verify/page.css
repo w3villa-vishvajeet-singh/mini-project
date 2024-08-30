@@ -1,0 +1,38 @@
+
+.country_box{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background: linear-gradient(to right, #6790db, hsl(203, 40%, 78%))
+
+}
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 560px;
+    background-color: rgb(85, 172, 194);
+    box-shadow: 3px 3px 2px 2px;
+    gap: 40px;
+
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    height: 40px;
+    width: 360px;
+
+}
+.countryNumber{
+    height: 40px;
+}
